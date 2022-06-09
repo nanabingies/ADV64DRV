@@ -23,7 +23,7 @@ Address&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Name&emsp;&emsp;&emsp;&em
 
 0000000000012000&emsp;&emsp;&emsp;HalTranslateBusAddress&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;HAL
 
-0000000000012010&emsp;&emsp;&emsp;RtlAppendUnicodeToString&emsp;&emsp;&emsp;&emsp;ntoskrnl
+0000000000012010&emsp;&emsp;&emsp;RtlAppendUnicodeToString&emsp;&emsp;&emsp;&emsp;&emsp;ntoskrnl
 
 0000000000012018&emsp;&emsp;&emsp;RtlInitUnicodeString	    ntoskrnl
 
