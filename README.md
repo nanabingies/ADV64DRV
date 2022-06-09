@@ -27,7 +27,7 @@ Address&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Name&emsp;&emsp;&emsp;&em
 
 0000000000012018&emsp;&emsp;&emsp;RtlInitUnicodeString&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;&ensp;ntoskrnl
 
-0000000000012020&emsp;&emsp;&emsp;MmUnmapIoSpace&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;ntoskrnl
+0000000000012020&emsp;&emsp;&emsp;MmUnmapIoSpace&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;ntoskrnl
 
 0000000000012028&emsp;&emsp;&emsp;MmMapIoSpace&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;ntoskrnl
 
