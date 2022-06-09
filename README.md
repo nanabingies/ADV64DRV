@@ -1,7 +1,7 @@
 # ADV64DRV
  Reverse Engineering ADV64 Kernel Driver
 
- ##DESCRIPTION
+ ## DESCRIPTION
 
 File Name: ADV64DRV.sys
 
@@ -15,7 +15,9 @@ SHA-1: 2261198385D62D2117F50F631652EDED0ECC71DB
 See full IDA disasembly at [ida full disassembly](ida.asm)
 
 
-##IMPORTS
+
+
+## IMPORTS
 
 Address	                Name	                    Library
 
@@ -46,11 +48,11 @@ Address	                Name	                    Library
 0000000000012068		IofCompleteRequest	        ntoskrnl
 
 
-##EXPORTS
+## EXPORTS
 Only DriverEntry
 
 
-##DRIVER INITIALIZATION
+## DRIVER INITIALIZATION
 The driver initialization function exists at offset *0x11500* which calls function *sub_11170* to initialize the device driver and create symbolic links. In the case of an error, the *IoWriteErrorLogEntry* routine queues the given error log packet to the system error logging thread.
 
 IRP DISPATCH ROUTINES
