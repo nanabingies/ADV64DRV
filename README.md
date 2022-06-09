@@ -57,11 +57,11 @@ The driver initialization function exists at offset *0x11500* which calls functi
 
 ### IRP DISPATCH ROUTINES
 
-sub_11010 -> IRP_MJ_CREATE 
+[sub_11010](sub_11010.asm) -> IRP_MJ_CREATE 
 
-sub_11010 -> IRP_MJ_CLOSE
+[sub_11010](sub_11010.asm) -> IRP_MJ_CLOSE
 
-sub_11460 -> IRP_MJ_DEVICE_CONTROL
+[sub_11460](sub_11460.asm) -> IRP_MJ_DEVICE_CONTROL
 
 sub_113D0 -> DRIVER_UNLOAD
 
