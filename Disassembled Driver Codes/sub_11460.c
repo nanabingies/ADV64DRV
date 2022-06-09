@@ -1,5 +1,6 @@
 #pragma once
 #include <wdm.h>
+#include "sub_11040.h"
 
 NTSTATUS sub_11460(PDEVICE_OBJECT DeviceObject, PIRP Irp) {
 	PIO_STACK_LOCATION StackLocation = IoGetCurrentIrpStackLocation(Irp);
