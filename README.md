@@ -19,33 +19,7 @@ SHA-1: 2261198385D62D2117F50F631652EDED0ECC71DB
 
 ## IMPORTS
 
-Address&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Library
-
-0000000000012000&emsp;&emsp;&emsp;HalTranslateBusAddress&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;HAL
-
-0000000000012010&emsp;&emsp;&emsp;RtlAppendUnicodeToString&emsp;&emsp;&emsp;&emsp;&ensp;ntoskrnl
-
-0000000000012018&emsp;&emsp;&emsp;RtlInitUnicodeString&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;&ensp;ntoskrnl
-
-0000000000012020&emsp;&emsp;&emsp;MmUnmapIoSpace&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;ntoskrnl
-
-0000000000012028&emsp;&emsp;&emsp;MmMapIoSpace&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;ntoskrnl
-
-0000000000012030&emsp;&emsp;&emsp;IoWriteErrorLogEntry&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;ntoskrnl
-
-0000000000012038&emsp;&emsp;&emsp;IoDeleteSymbolicLink&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;ntoskrnl
-
-0000000000012040&emsp;&emsp;&emsp;IoDeleteDevice&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;ntoskrnl
-
-0000000000012048&emsp;&emsp;&emsp;IoCreateSymbolicLink&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;ntoskrnl
-
-0000000000012050&emsp;&emsp;&emsp;IoCreateDevice&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;ntoskrnl
-
-0000000000012058&emsp;&emsp;&emsp;KeBugCheckEx&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;ntoskrnl
-
-0000000000012060&emsp;&emsp;&emsp;IoAllocateErrorLogEntry&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;ntoskrnl
-
-0000000000012068&emsp;&emsp;&emsp;IofCompleteRequest&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;ntoskrnl
+![alt text](imports.png)
 
 
 ## EXPORTS
