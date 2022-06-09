@@ -25,27 +25,27 @@ Address&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Name&emsp;&emsp;&emsp;&em
 
 0000000000012010&emsp;&emsp;&emsp;RtlAppendUnicodeToString&emsp;&emsp;&emsp;&emsp;&ensp;ntoskrnl
 
-0000000000012018&emsp;&emsp;&emsp;RtlInitUnicodeString	    ntoskrnl
+0000000000012018&emsp;&emsp;&emsp;RtlInitUnicodeString&emsp;&emsp;&emsp;ntoskrnl
 
-0000000000012020&emsp;&emsp;&emsp;MmUnmapIoSpace	            ntoskrnl
+0000000000012020&emsp;&emsp;&emsp;MmUnmapIoSpace&emsp;&emsp;&emsp;ntoskrnl
 
-0000000000012028&emsp;&emsp;&emsp;MmMapIoSpace	            ntoskrnl
+0000000000012028&emsp;&emsp;&emsp;MmMapIoSpace&emsp;&emsp;&emsp;ntoskrnl
 
-0000000000012030&emsp;&emsp;&emsp;IoWriteErrorLogEntry	    ntoskrnl
+0000000000012030&emsp;&emsp;&emsp;IoWriteErrorLogEntry&emsp;&emsp;&emsp;ntoskrnl
 
-0000000000012038&emsp;&emsp;&emsp;IoDeleteSymbolicLink	    ntoskrnl
+0000000000012038&emsp;&emsp;&emsp;IoDeleteSymbolicLink&emsp;&emsp;&emsp;ntoskrnl
 
-0000000000012040&emsp;&emsp;&emsp;IoDeleteDevice	            ntoskrnl
+0000000000012040&emsp;&emsp;&emsp;IoDeleteDevice&emsp;&emsp;&emsp;ntoskrnl
 
-0000000000012048&emsp;&emsp;&emsp;IoCreateSymbolicLink	    ntoskrnl
+0000000000012048&emsp;&emsp;&emsp;IoCreateSymbolicLink&emsp;&emsp;&emsp;ntoskrnl
 
-0000000000012050&emsp;&emsp;&emsp;IoCreateDevice	            ntoskrnl
+0000000000012050&emsp;&emsp;&emsp;IoCreateDevice&emsp;&emsp;&emsp;ntoskrnl
 
-0000000000012058&emsp;&emsp;&emsp;KeBugCheckEx	            ntoskrnl
+0000000000012058&emsp;&emsp;&emsp;KeBugCheckEx&emsp;&emsp;&emsp;ntoskrnl
 
-0000000000012060&emsp;&emsp;&emsp;IoAllocateErrorLogEntry	    ntoskrnl
+0000000000012060&emsp;&emsp;&emsp;IoAllocateErrorLogEntry&emsp;&emsp;&emsp;ntoskrnl
 
-0000000000012068&emsp;&emsp;&emsp;IofCompleteRequest	        ntoskrnl
+0000000000012068&emsp;&emsp;&emsp;IofCompleteRequest&emsp;&emsp;&emsp;ntoskrnl
 
 
 ## EXPORTS
