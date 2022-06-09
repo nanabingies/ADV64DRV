@@ -25,7 +25,7 @@ Address&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Name&emsp;&emsp;&emsp;&em
 
 0000000000012010&emsp;&emsp;&emsp;RtlAppendUnicodeToString&emsp;&emsp;&emsp;&emsp;&ensp;ntoskrnl
 
-0000000000012018&emsp;&emsp;&emsp;RtlInitUnicodeString&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;ntoskrnl
+0000000000012018&emsp;&emsp;&emsp;RtlInitUnicodeString&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;ntoskrnl
 
 0000000000012020&emsp;&emsp;&emsp;MmUnmapIoSpace&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;ntoskrnl
 
