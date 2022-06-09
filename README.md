@@ -65,7 +65,7 @@ sub_11460 -> IRP_MJ_DEVICE_CONTROL
 
 sub_113D0 -> DRIVER_UNLOAD
 
-[dispatch rotuines](dispatch_routines.png)
+![alt text](dispatch_routines.png)
 
 The driver sets up a [driver unload function](driverunload.com) 
 
