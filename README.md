@@ -33,9 +33,9 @@ Address&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Name&emsp;&emsp;&emsp;&em
 
 0000000000012030&emsp;&emsp;&emsp;IoWriteErrorLogEntry&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;ntoskrnl
 
-0000000000012038&emsp;&emsp;&emsp;IoDeleteSymbolicLink&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;ntoskrnl
+0000000000012038&emsp;&emsp;&emsp;IoDeleteSymbolicLink&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;ntoskrnl
 
-0000000000012040&emsp;&emsp;&emsp;IoDeleteDevice&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;ntoskrnl
+0000000000012040&emsp;&emsp;&emsp;IoDeleteDevice&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;ntoskrnl
 
 0000000000012048&emsp;&emsp;&emsp;IoCreateSymbolicLink&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;ntoskrnl
 
