@@ -55,13 +55,18 @@ Only DriverEntry
 ## DRIVER INITIALIZATION
 The driver initialization function exists at offset *0x11500* which calls function *sub_11170* to initialize the device driver and create symbolic links. In the case of an error, the *IoWriteErrorLogEntry* routine queues the given error log packet to the system error logging thread.
 
-IRP DISPATCH ROUTINES
+### IRP DISPATCH ROUTINES
+
 sub_11010 -> IRP_MJ_CREATE 
+
 sub_11010 -> IRP_MJ_CLOSE
+
 sub_11460 -> IRP_MJ_DEVICE_CONTROL
+
 sub_113D0 -> DRIVER_UNLOAD
 
 [dispatch rotuines](dispatch_routines.png)
+
 The driver sets up a [driver unload function](driverunload.com) 
 
 
